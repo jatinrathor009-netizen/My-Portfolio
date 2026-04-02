@@ -205,5 +205,22 @@ nav a:hover {
 .contact-item a:hover {
   color: #00d9ff;
 }
+/* PROJECT BUTTON */
+.project-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #00d9ff, #007cf0);
+  color: black;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
 
+.project-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 217, 255, 0.4);
+  background: linear-gradient(135deg, #00b5d6, #0056d6);
+}
 
